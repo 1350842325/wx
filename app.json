@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/loading1/loading1",
+    "pages/index1/index1",
+    "pages/detail/detail",
+    "pages/comment/comment",
+    "pages/setting1/setting1",
+    "pages/favorite/favorite",
+    "pages/webview/webview",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/setting/setting",
+    "pages/day/day",
+    "pages/month/month",
+    "pages/week/week",
+    "pages/harvest/harvest",
+    "pages/me/me",
+    "pages/advice/advice"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#3197ec",
+    "navigationBarTitleText": "开启你的时刻o(*￣▽￣*)ブ",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#0094ft",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#0094tt",
+    "enablePullDownRefresh": "#0094tt",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/zu.png",
+        "selectedIconPath": "image/x.png",
+        "text": "学习君"
+      },
+      {
+        "pagePath": "pages/index1/index1",
+        "iconPath": "image/8.png",
+        "selectedIconPath": "image/7.png",
+        "text": "观世界"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "image/6.png",
+        "selectedIconPath": "image/5.png",
+        "text": "自我发展"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

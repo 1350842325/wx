@@ -1,0 +1,15 @@
+
+<view>
+<image bindtap='onAdviceClick' class='background' src='https://i.loli.net/2019/12/20/Ho9JN416xFlAK2Q.jpg'>
+</image>
+<image class='zi' src='https://i.loli.net/2019/12/20/kheBS5ltwvj491r.png'></image>
+<view class='amountBg'>
+    
+    <view class='img'>
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+   <view class='nick-name'>
+        <open-data type="userNickName" lang="zh_CN"></open-data>
+      </view>
+  </view>
+</view>

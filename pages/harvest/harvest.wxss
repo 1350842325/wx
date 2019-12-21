@@ -1,0 +1,37 @@
+page{  
+  background-color: blue;  
+  width:100%;  
+  height:100%;  
+}
+.contain{
+  position: absolute;
+  width:100%;  
+  height:100%;
+}
+.question{
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  right: 10%;
+  font-size: 18px;
+}
+.question button{
+  height: 60rpx;
+  width: 100%;
+  font-size: 13px;
+}
+.count{
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 100%;
+  font-size: 13px;
+  text-align: center;
+}
+.show{
+  height: 60rpx;
+  line-height: 60rpx;
+  width: 46%;
+  font-size: 13px;
+  text-align: center;
+  
+}

@@ -1,0 +1,12 @@
+
+<view class="page">
+<image class='background' src='../../image/12.jpg'></image>
+<view style="width:120rpx;">    
+   	<button  class="okbtn" bindtap='oknum' >{{btnx}}        </button>    
+ </view>
+  <view class="page__hd">
+    <view class="weui-cells weui-cells_after-title">
+        
+    </view>
+  </view>
+</view>

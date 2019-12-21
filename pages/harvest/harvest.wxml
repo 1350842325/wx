@@ -1,0 +1,20 @@
+<view class="contain" style="background:url('https://i.loli.net/2019/12/20/UqIfnsGM4bkeC36.jpg'); background-size: cover">
+<view  style="position:absolute; font-size:14px; left:10%; top:6%; right:10%; height:60rpx; line-height:60rpx; background:url('https://wx4.sinaimg.cn/mw690/006aTqkAgy1fqbxj98xa4j30vh0hq0tv.jpg'); background-size: cover">计时：{{time}}（注：每人5分钟的答题时间）
+</view>
+<view class="question"><text>题目：{{questionbody}}</text>
+<button bindtap='disp' id='A' data-num="{{Ans}}" data-count="{{count}}" data-bindcount="{{bindcount}}" data-rightcount="{{rightcount}}" data-errorcount="{{errorcount}}" style="position:absolute; top:300rpx; background:url('https://wx4.sinaimg.cn/mw690/006aTqkAgy1fqbxj98xa4j30vh0hq0tv.jpg'); background-size: cover"><text>{{A}}</text>
+</button>
+<button bindtap='disp' id='B' data-num="{{Ans}}" data-count="{{count}}" data-bindcount="{{bindcount}}" data-rightcount="{{rightcount}}" data-errorcount="{{errorcount}}" style="position:absolute; top:400rpx; background:url('https://wx4.sinaimg.cn/mw690/006aTqkAgy1fqbxj98xa4j30vh0hq0tv.jpg'); background-size: cover"><text>{{B}}</text>
+</button>
+<button bindtap='disp' id='C' data-num="{{Ans}}" data-count="{{count}}" data-bindcount="{{bindcount}}" data-rightcount="{{rightcount}}" data-errorcount="{{errorcount}}" style="position:absolute; top:500rpx; background:url('https://wx4.sinaimg.cn/mw690/006aTqkAgy1fqbxj98xa4j30vh0hq0tv.jpg'); background-size: cover"><text>{{C}}</text>
+</button>
+<button bindtap='disp' id='D' data-num="{{Ans}}" data-count="{{count}}" data-bindcount="{{bindcount}}" data-rightcount="{{rightcount}}" data-errorcount="{{errorcount}}" style="position:absolute; top:600rpx; background:url('https://wx4.sinaimg.cn/mw690/006aTqkAgy1fqbxj98xa4j30vh0hq0tv.jpg'); background-size: cover"><text>{{D}}</text>
+</button>
+<view class="count" style="position:absolute; top:700rpx; background:url('https://wx4.sinaimg.cn/mw690/006aTqkAgy1fqbxj98xa4j30vh0hq0tv.jpg'); background-size: cover">当前得分：{{count}}分（注：答对得5分。答错扣2分！）
+</view>
+<button bindtap="refresh" style="position:absolute; width:46%; top:850rpx; background:url('https://wx4.sinaimg.cn/mw690/006aTqkAgy1fqbxj98xa4j30vh0hq0tv.jpg'); background-size: cover"><text>下一题</text>
+</button>
+<view class="show" style="position:absolute; top:850rpx; left:55%; background:url('https://wx4.sinaimg.cn/mw690/006aTqkAgy1fqbxj98xa4j30vh0hq0tv.jpg'); background-size: cover">{{show}}
+</view>
+</view>
+</view>

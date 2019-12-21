@@ -1,0 +1,19 @@
+<view class="page">
+  <view hidden="true">{{figure}}</view>
+  <view class="page__bd page__bd_spacing">
+    <view class="table" wx:if="{{figure<=4}}">
+      <text>上月的工作时间折线图</text>
+    </view>
+    <view class="table" wx:if="{{figure<=3}}">
+      <text>鉴于您出色的表现，我们封您为：</text>
+      <text>学神</text>
+    </view>
+    <view class="table" wx:if="{{figure<=2}}">
+      <text>您的工作时间主要集中在</text>
+      <text></text>
+    </view>
+    <view wx:if="{{figure<=1}}">再接再厉，奥利给~</view>
+
+    <view wx:if="{{figure>=2}}"><button bindtap="clickMore" class="first" type="primary">点我有惊喜嗷</button></view>
+  </view>
+</view>
